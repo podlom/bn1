@@ -5,7 +5,7 @@
  * Date: 20.12.2016
  * Time: 15:
  *
- * Updated: 2023-12-22 17:17
+ * Updated: 2025-03-14 23:44
  */
 
 namespace app;
@@ -85,6 +85,13 @@ class banner
 
                     '<a href="//go.shkodenko.com/to/pmp" target="_blank">PHP Mentorship program</a>',
                     '<a href="https://www.shkodenko.com/php-mentorship-program/?ref=' . self::REF_NAME . '" target="_blank">PHP Mentorship program</a>',
+
+                    '<a href="https://r.lifecell.ua/RuCC" target="_blank">Switch to Lifecell</a>',
+                    '<a href="https://r.lifecell.ua/RuCC" target="_blank">Get benefits with Lifecell</a>',
+                    '<a href="https://r.lifecell.ua/RuCC" target="_blank">Affordable calls with Lifecell</a>',
+                    '<a href="https://r.lifecell.ua/RuCC" target="_blank">Chayka-Pereklyuchayka recommends Lifecell</a>',
+                    '<a href="https://r.lifecell.ua/RuCC" target="_blank">Join Lifecell</a>',
+
                 ];
                 break;
 
@@ -149,6 +156,13 @@ class banner
 
                     '<a href="//go.shkodenko.com/to/pmp" target="_blank">Менторська програма PHP</a>',
                     '<a href="https://www.shkodenko.com/php-mentorship-program/?ref=' . self::REF_NAME . '" target="_blank">Менторська програма PHP</a>',
+
+                    '<a href="https://r.lifecell.ua/RuCC" target="_blank">Переходь до Lifecell</a>',
+                    '<a href="https://r.lifecell.ua/RuCC" target="_blank">Отримай вигоду з Lifecell</a>',
+                    '<a href="https://r.lifecell.ua/RuCC" target="_blank">Вигідні дзвінки з Lifecell</a>',
+                    '<a href="https://r.lifecell.ua/RuCC" target="_blank">Чайка-Переключайка рекомендує Lifecell</a>',
+                    '<a href="https://r.lifecell.ua/RuCC" target="_blank">Підключайся до Lifecell</a>',
+
                 ];
                 break;
 
@@ -220,6 +234,13 @@ class banner
 
                     '<a href="//go.shkodenko.com/to/pmp" target="_blank">Менторская программа PHP</a>',
                     '<a href="https://www.shkodenko.com/php-mentorship-program/?ref=' . self::REF_NAME . '" target="_blank">Менторская программа PHP</a>',
+
+                    '<a href="https://r.lifecell.ua/RuCC" target="_blank">Переходи на Lifecell</a>',
+                    '<a href="https://r.lifecell.ua/RuCC" target="_blank">Получай выгоду с Lifecell</a>',
+                    '<a href="https://r.lifecell.ua/RuCC" target="_blank">Выгодные звонки с Lifecell</a>',
+                    '<a href="https://r.lifecell.ua/RuCC" target="_blank">Чайка-Переключайка рекомендует Lifecell</a>',
+                    '<a href="https://r.lifecell.ua/RuCC" target="_blank">Подключайся к Lifecell</a>',
+
                 ];
                 break;
         }
