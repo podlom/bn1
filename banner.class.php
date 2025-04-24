@@ -92,6 +92,8 @@ class banner
                     '<a href="https://r.lifecell.ua/RuCC" target="_blank">Chayka-Pereklyuchayka recommends Lifecell</a>',
                     '<a href="https://r.lifecell.ua/RuCC" target="_blank">Join Lifecell</a>',
 
+                    '<a href="https://www.canva.com/join/wqv-tdh-kty">Signup to Canva</a>',
+
                 ];
                 break;
 
@@ -162,6 +164,8 @@ class banner
                     '<a href="https://r.lifecell.ua/RuCC" target="_blank">Вигідні дзвінки з Lifecell</a>',
                     '<a href="https://r.lifecell.ua/RuCC" target="_blank">Чайка-Переключайка рекомендує Lifecell</a>',
                     '<a href="https://r.lifecell.ua/RuCC" target="_blank">Підключайся до Lifecell</a>',
+
+                    '<a href="https://www.canva.com/join/wqv-tdh-kty">Реєструйся на Canva</a>',
 
                 ];
                 break;
@@ -240,6 +244,8 @@ class banner
                     '<a href="https://r.lifecell.ua/RuCC" target="_blank">Выгодные звонки с Lifecell</a>',
                     '<a href="https://r.lifecell.ua/RuCC" target="_blank">Чайка-Переключайка рекомендует Lifecell</a>',
                     '<a href="https://r.lifecell.ua/RuCC" target="_blank">Подключайся к Lifecell</a>',
+
+                    '<a href="https://www.canva.com/join/wqv-tdh-kty">Регистрируйся на Canva</a>',
 
                 ];
                 break;
