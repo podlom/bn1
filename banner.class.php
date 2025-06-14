@@ -1,15 +1,21 @@
 <?php
+
+declare(strict_types=1);
+
 /**
  * Created by PhpStorm.
  * User: Тарас
  * Date: 20.12.2016
  * Time: 15:
  *
- * Updated: 2025-03-14 23:44
+ * Updated: 2025-06-14 20:24
  */
 
 namespace app;
 
+require_once __DIR__ . '/vendor/autoload.php';
+
+use Dotenv\Dotenv;
 
 class banner
 {
@@ -19,8 +25,14 @@ class banner
     private $validLang = ['ru', 'en', 'uk'];
     private $num = null;
 
+    private $key = null;
+
     public function __construct($lang = 'uk', $num = null)
     {
+        // Завантаження змінних середовища з .env
+        $dotenv = Dotenv::createImmutable(__DIR__);
+        $dotenv->load();
+
         if (in_array($lang, $this->validLang)) {
             $this->lang = $lang;
         } else {
@@ -29,6 +41,8 @@ class banner
         if (!is_null($num)) {
             $this->num = $num;
         }
+
+        $this->key = $_ENV['BANNER_CLICK_KEY'];
     }
 
     public function getHeaders()
@@ -295,8 +309,12 @@ class banner
 
     private function logClick($url)
     {
+        if (empty($this->key)) {
+            return;
+        }
+
         $payload = [
-            'key' => '***REMOVED***', // <-- має відповідати Yii2 конфігурації
+            'key' => $this->key,
             'url' => $url,
             'ip' => $_SERVER['REMOTE_ADDR'] ?? null,
             // 'country' => null,
