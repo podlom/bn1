@@ -114,6 +114,8 @@ class banner
 
                     '<a href="https://www.dropbox.com/referrals/AAAwlf2cgPWauEMztYtKtCeDZN0iS4Ib0ZI?src=global91">Download Dropbox for your computer and get 500 MB</a>',
 
+                    '<a href="https://www.fiverr.com/pe/YRwPXVR">Join Fiverr - the best freelance platrorm</a>',
+
                 ];
                 break;
 
@@ -193,6 +195,8 @@ class banner
 
                     '<a href="https://www.dropbox.com/referrals/AAAwlf2cgPWauEMztYtKtCeDZN0iS4Ib0ZI?src=global91">Завантаж собі Dropbox для комп&apos;ютеру та отримай 500 МБ</a>',
 
+                    '<a href="https://www.fiverr.com/pe/YRwPXVR">Доєднуйся до Fiverr - найкраща платформа для фрілансу</a>',
+                    
                 ];
                 break;
 
@@ -278,6 +282,8 @@ class banner
                     '<a href="https://www.upwork.com/freelancers/~01e05248f10699bf9d">Профиль Тараса Шкоденко на Upwork.com</a>',
 
                     '<a href="https://www.dropbox.com/referrals/AAAwlf2cgPWauEMztYtKtCeDZN0iS4Ib0ZI?src=global91">Загрузи себе Dropbox для компьютера и получи 500 МБ</a>',
+
+                    '<a href="https://www.fiverr.com/pe/YRwPXVR">Регистрируйся на Fiverr - лучшая платформа для фриланса</a>',
 
                 ];
                 break;
